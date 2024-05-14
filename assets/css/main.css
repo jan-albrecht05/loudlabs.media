@@ -83,6 +83,7 @@ input{
     border: 2px solid var(--fontcolor);
     border-radius: 5px;
     caret-color: var(--fontcolor);
+    color: var(--fontcolor);
 }
 input:focus{
     outline: none;

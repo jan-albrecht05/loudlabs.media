@@ -2,7 +2,6 @@
  
 <style>
     @import url('https://fonts.cdnfonts.com/css/batman-forever');
-    html{background-color: black}
     h1{font-family: 'BatmanForeverAlternate', sans-serif;}
 </style>
 My own business- web page.

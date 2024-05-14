@@ -3,10 +3,14 @@ body{
 }
 #top{
     height: 100lvh;
+    width: 100%;
     background-color: var(--grey);
     transform: opentopbar .2s;
     transition: all .5s;
     user-select: none;
+    z-index: 999;
+    position:absolute;
+    margin-top: -1rem;
 }
 #elements{
     display: block;

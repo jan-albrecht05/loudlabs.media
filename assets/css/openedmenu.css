@@ -18,22 +18,19 @@ body{
 }
 #logo{
     width: 50%;
-    aspect-ratio: 1/1;
-    display: inline-block;
+    margin-left: 24%;
+    margin-bottom: .5rem;
 }
 .link{
     font-size: 180%;
-    transition: all .5s;
     margin-bottom: 2rem;
     text-align: center;
-}
-.link a{
     color: var(--fontcolor);
     text-decoration: none;
     font-family: 'Courier New', Courier, monospace;
     transition: all .5s;
 }
-.link:hover a{
+.link:hover{
     text-decoration: underline var(--fontcolor);
 }
 .link:nth-child(2),

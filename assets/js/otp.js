@@ -1,6 +1,5 @@
 window.addEventListener("load", (event) =>{
     clearinputs();
-    document.getElementById("input1").focus();
 })
 function clearinputs(){
     document.getElementById("input1").value ="";

@@ -24,6 +24,9 @@ img{
     justify-content: center;
     align-items: center;
 }
+.flex{
+    display: flex;
+}
 #top{
     z-index: 50;
 }
@@ -88,7 +91,8 @@ input:focus{
 /* Fortschritt */
 #content{
     width: 90%;
-    margin-inline: auto;;
+    margin-inline: auto;
+    margin-bottom: 2rem;
 }
 #check{
     padding-top: 1rem;
@@ -105,6 +109,15 @@ input:focus{
 .statusbar{
     background-color: var(--green);
     height: 100%;
+}
+.pagelink{
+    background-color: var(--green);
+    color: var(--grey);
+    display: flex;
+    width: 30%;
+    height: 2rem;
+    border-radius: 10px;
+    margin-inline: 1%;
 }
 @media (max-width:600px) {
     html{
@@ -125,5 +138,12 @@ input:focus{
     }
     #otp_outer_box{
         width: 100%;
+    }
+    .flex{
+        display: block;
+    }
+    .pagelink{
+        width: 100%;
+        margin-bottom: .5rem;
     }
 }

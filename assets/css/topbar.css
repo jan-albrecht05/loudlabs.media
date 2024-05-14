@@ -96,9 +96,9 @@ a{
         font-weight: bold;
         display: none;
     }
-    #top{
+    /*#top{
         animation: closetopbar .5s;
-    }
+    }*/
 }
 @keyframes closetopbar {
     0%{

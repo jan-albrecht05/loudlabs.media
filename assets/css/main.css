@@ -79,6 +79,10 @@ input{
     font-size: 300%;
     text-align: center;
     font-family: 'Courier New', Courier, monospace;
+    background-color: var(--grey);
+    border: 2px solid var(--fontcolor);
+    border-radius: 5px;
+    caret-color: var(--fontcolor);
 }
 input:focus{
     outline: none;

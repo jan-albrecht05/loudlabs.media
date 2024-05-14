@@ -19,7 +19,6 @@ body{
 #logo{
     width: 50%;
     aspect-ratio: 1/1;
-    border: 1px solid violet;
     display: inline-block;
 }
 .link{

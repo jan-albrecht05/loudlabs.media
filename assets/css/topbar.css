@@ -32,6 +32,10 @@ a{
 .link:nth-child(1){
     width: 3rem;
 }
+#logo{
+    height: auto;
+    width: 2.8rem;
+}
 .link:nth-child(1),
 #elements:hover .link:nth-child(1):hover{
     background-color: var(--green);

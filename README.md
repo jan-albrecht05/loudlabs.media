@@ -2,9 +2,17 @@
  
 <style>
     @import url('https://fonts.cdnfonts.com/css/batman-forever');
+    html{background-color: black}
     h1{font-family: 'BatmanForeverAlternate', sans-serif;}
 </style>
 My own business- web page.
 
 To do:
-- [x] nothing
+- [x] adding index.html
+- [x] adding folder-structure
+- [x] managing to connect it with its subdomain
+- [x] fancy top bar
+- [ ] 
+- [ ] 
+- [ ] 
+- [ ] 

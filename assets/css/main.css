@@ -95,6 +95,9 @@ input:focus{
 #footer{
     height: 3rem;
     border-top: 1px solid var(--fontcolor);
+    margin-top: auto;
+    position: sticky;
+    bottom: 0;
 }
 #footer .footerlink{
     margin-inline: 1%;

@@ -23,7 +23,7 @@
     width: max-content;
     transition: all .5s;
 }
-a{
+span,a{
     color: var(--fontcolor);
     text-decoration: none;
     transition: all .5s;
@@ -43,29 +43,30 @@ a{
     height: 119%;
     filter: drop-shadow(2px 2px 2px var(--green));
 }
-.link:nth-child(1) a{
+.link:nth-child(1) img{
     transform: skewY(15deg);
 }
 .link:hover{
     background-color: var(--green);
     transform: skewY(-15deg);
     height: 119%;    
-    filter: drop-shadow(0px 0px 5px var(--green));    
+    filter: drop-shadow(0px 0px 5px var(--green)); 
 }
-.link:hover a{
+.link:hover span{
     transform: skewY(15deg);
     color: var(--grey);
 }
 #elements:hover .link:nth-child(1){
-    transform: skewY(0);
     background-color: var(--grey);
-    height: 100%;
-    filter: none;    
-}
-#elements:hover .link:nth-child(1) a{
     transform: skewY(0deg);
+    filter: none;
+    height: 100%;
 }
-#elements:hover .link:nth-child(1):hover a{
+#elements:hover .link:nth-child(1) img{
+    transform: skewY(0deg);
+    width: 2.5rem;
+}
+#elements:hover .link:nth-child(1):hover img{
     transform: skewY(15deg);
 }
 #burger,

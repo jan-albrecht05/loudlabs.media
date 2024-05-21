@@ -34,7 +34,8 @@
 .link:nth-child(2),
 .link:nth-child(3),
 .link:nth-child(4),
-.link:nth-child(5){
+.link:nth-child(5),
+.link:nth-child(6){
     display: block;
 }
 #burger{

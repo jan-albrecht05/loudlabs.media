@@ -26,6 +26,8 @@ function next5(){
     document.getElementById("input6").focus();
 }
 function check(){
+    setTimeout(function () {
+    }, 1000);
     let passkey = document.getElementById("input1").value+document.getElementById("input2").value+document.getElementById("input3").value+document.getElementById("input4").value+document.getElementById("input5").value+document.getElementById("input6").value;
     document.getElementById("input6").blur();
     if (passkey == "MP27LL"){
